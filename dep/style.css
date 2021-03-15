@@ -1,0 +1,65 @@
+/* Navigation Bar */
+
+.navbar {
+    padding: 10px;
+    background-color: #28a7e9;
+    transition: all ease 0.4s;
+    border-bottom: 2px solid gray;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    color: white !important;
+}
+
+.navbar .navbar-nav li a {
+    font-size: 16px;
+    color: white;
+}
+
+/* Jumbotron */
+
+#jum {
+    margin-top: 110px !important;
+}
+
+/* Login */
+
+.float-right {
+    float: right !important;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.form-check-label {
+    margin-bottom: 0;
+}
+
+#con {
+    width: 50%;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 560px) {
+    #con {
+        width: auto;
+    }
+    .jumbotron, form {
+        width: 100% !important;
+    }
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+    #img {
+        display: none;
+    }
+}
